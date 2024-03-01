@@ -17,3 +17,8 @@ class Ninja {
         this.salud = this.salud + 10;
     }
 }
+const ninja1 = new Ninja("Hyabusa", 100);
+
+ninja1.sayName();
+ninja1.drinkSake();
+ninja1.showStats();
